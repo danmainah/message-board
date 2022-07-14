@@ -1,0 +1,9 @@
+extend layout
+
+
+block content
+  form(action='/new', method='POST')
+    p
+      input(type="text" name="message" placeholder="Enter Your Message ")
+      input(type="text" name="author" placeholder="Enter Your Name ")
+      input(value='Submit', type='submit')
